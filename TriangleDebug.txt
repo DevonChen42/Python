@@ -1,0 +1,10 @@
+ myTurtle drawTriangle debug 
+ myTurtle drawTriangle debug 
+ myTurtle drawTriangle debug 
+ myTurtle drawTriangle debug 
+0 [-100, -50] (-87.5, -31.25) (-75.0, -50.0)
+ myTurtle drawTriangle debug 
+0 (-75.0, -12.5) (-87.5, -31.25) (-62.5, -31.25)
+ myTurtle drawTriangle debug 
+0 (-50.0, -50.0) (-62.5, -31.25) (-75.0, -50.0)
+1 [-100, -50] (-75.0, -12.5) (-50.0, -50.0)
