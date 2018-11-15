@@ -6,8 +6,8 @@ print("* * * * * * * * * * * * * * *")
 print("1 DIMENSIONAL LIST")
 oneD = [1,2,3,4,5,6,7,8,9,10,11,12]
 print (oneD)
-for n in range (0, len(oneD)):
-	print (oneD[n]," ", end="")
+for n in range (0,len(oneD)):
+	print(oneD[n]," ",end="")
 	
 print()
 print("* * * * * * * * * * * * * * *")
