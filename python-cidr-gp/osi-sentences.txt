@@ -1,0 +1,11 @@
+N D I E L P M
+- Network Process to Application
+- Data Representation and Encryption
+- Internet Communication
+- End-to-End Connections and Reliability
+- Logical Addressing and Path Determination(IP)
+- Physical Addressing (MAC and LLC)
+- Media, signal and binary transmission
+
+
+
