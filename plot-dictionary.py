@@ -1,22 +1,22 @@
 # plot-dictionary.py
-
+#import tkinter as tk
 import turtle
-
+twin = turtle.Screen()
+twin.clear()
+t = turtle.Turtle()
 def main():
 	#table is a dictionary
-	table = {-100:0,-90:0,-80:0,-70:0,-60:0,-50:0,
-				-40:0,-30:0,-20:0,-10:0,0:0,
-					10:0,20:0,30:0,40:0,50:0,
-					60:0,70:0,80:0,90:0,100:0
+	table = {-100:0,-90:10,-80:20,-70:30,-60:40,-50:50,
+				-40:60,-30:70,-20:75,-10:80,0:85,
+					10:80,20:75,30:70,40:60,50:50,
+					60:40,70:30,80:20,90:10,100:0
 			}
+
 	print(" KEYS ")
 	print(table.keys())
 	print(" VALUES ")
 	print(table.values())
 	#turtle graphics
-	twin = turtle.Screen()
-	twin.clear()
-	t = turtle.Turtle()
 	#tWin = turtle.Screen()
 	for h,k in table.items():  #get the items in the dictionary
 		print(h, k) # trace code
@@ -25,10 +25,33 @@ def main():
 		t.goto(h,k)
 		t.pendown()
 		t.circle(5)
-	twin.exitonclick()
 
 main()
-
+def bottom():
+	#table is a dictionary
+	table1 = {-110:-10,-100:-10,-90:-10,-80:-10,-70:-10,-60:-10,
+					-50:-10,-40:-10,-30:-10,-20:-10,10:-10,
+						20:-10,30:-10,40:-10,50:-10,60:-10,
+						70:-10,80:-10,90:-10,100:-10,110:-10
+			}
+	print(" KEYS ")
+	print(table1.keys())
+	print(" VALUES ")
+	print(table1.values())
+	#turtle graphics
+	#tWin = turtle.Screen()
+	for h,k in table1.items():  #get the items in the dictionary
+		print(h, k) # trace code
+		#x,y = table[n]
+		t.penup()
+		t.goto(h,k)
+		t.pendown()
+		t.circle(5)
+	print(" TRIANGLE HOUSE ""\n""( •_•)""\n"
+	"( •_•)>⌐■-■""\n"
+	"(⌐■_■)")
+bottom()
+twin.exitonclick()
 """
 This code uses a dictionary with keys ranging from
 -100 to 100 incrementing by 10.
