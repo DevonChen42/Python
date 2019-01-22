@@ -22,15 +22,10 @@ class QuadraticEquation:
 		else:
 			return (-self.b - math.sqrt(self.discriminant())) / (2 * self.a)
 			
-	a = float(input("Input a: "))
-	b = float(input("Input b: "))
-	c = float(input("Input c: "))
-	
-	p1 = QuadraticEquation(a,b,c)
-	x1 = p1.x1()
-	x2 = p1.x2()
-	print ("Discriminant = ",p1.discriminant())
-	print ("x1 = ",x1," x2 = ",x2)
-	
 if __name__ == "__main__":
-	main()
+		p1 = QuadraticEquation(1, 0, -9)
+		x1 = p1.x1()
+		x2 = p1.x2()
+		print ("Discriminant = ",p1.discriminant())
+		print ("x1 = ",x1," x2 = ",x2)
+		
